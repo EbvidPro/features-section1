@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.styles.total {
+  width: 100%;
+  display: flex;
+}
+.styles.left {
+  float: left;
+  width: 40%;
+}
+.styles.right {
+  float: right;
+  width: 60%;
+  flex-direction: row;
+}
+.styles.feat {
+  float: left;
+  width: 50%;
+  padding: 2cm, 2cm, 2cm, 4cm;
+}
+.group {
+  float: right;
+  width: 50%;
+  padding: 0, 2cm, 0, 2cm;
+}
