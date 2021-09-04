@@ -5,25 +5,22 @@ import group from './image.png';
 const Section1 = () => {
     return(
         <div className={styles.total}>
-            <div className={styles.next}>
                 <div className={styles.feat}>
-                    <p>Zuri Chat Features</p>
-                    <p>The best platform for your team, your work and fun.</p>
-                    <p>Connect and work with your team on zuri chat.<br/>
-                       With zuri chat, you can do it all, work and fun.<br/>
+                    <h2>Zuri Chat Features</h2>
+                    <h3>The best platform for your team, your work and fun.</h3>
+                    <p>
+                        Connect and work with your team on Zuri Chat.
+                       With Zuri hat, you can do it all, work and fun.
                        DMs, game room, channels, all in one with easy access.
                     </p>
-                    <p>
-                        <button>Get Started</button>
-                        <button>See all Features</button>
-                    </p>
+                    <div className={styles.btn}>
+                        <button className={styles.getStarted}>Get Started</button>
+                        <button className={styles.features}>See all Features</button>
+                    </div>
                 </div>
-            <div className={group}>
-                    <img src={group} alt="group" />
+                <div className={group}>
+                    <img src={group} alt="group" className={styles.groupImage}/>
                 </div>
-
-            
-            </div>
         </div>
     )
 }
